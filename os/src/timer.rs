@@ -16,4 +16,3 @@ pub fn set_next_trigger() {
 pub fn get_time_ms() -> usize {
     time::read() / (CLOCK_FREQ / MSEC_PER_SEC)
 }
-
